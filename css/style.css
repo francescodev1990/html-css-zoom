@@ -3,3 +3,64 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    top: 0;
+    left: 0;
+}
+
+.header-container{
+    margin: 0 10px;
+}
+
+.header-container ul{
+    list-style-type: none;
+}
+
+.header-container li{
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: rgb(156, 91, 91);
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.col-14{
+    padding: 65px;
+    display: flex;
+    margin: -165px;
+}
+
+.col-14 img{
+    
+    width: 250px;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-left: 65px;
+}
